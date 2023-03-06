@@ -1,0 +1,33 @@
+.header-list{
+    /* background-color: lightcoral; */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.header-item{
+    margin: 5px 10px;
+}
+
+.header-item > a{
+    text-decoration: none;
+    padding: 8px 15px;
+    /* font-weight: bold; */
+    color: #333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header-item > a:hover{
+    /* background-color: red; */
+    border-bottom: 1px solid rgba(175, 175, 175, 0.671);
+}
+
+.container-element{
+    margin: 0px auto;
+    width: 800px;
+}

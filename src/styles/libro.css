@@ -1,0 +1,62 @@
+.card-container{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.card{
+    width: 30%;
+    /* box-shadow: 2px 2px 10px #333; */
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.card-img{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img{
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.titulo{
+    font-size: 1rem;
+    margin: 0;
+    text-align: end;
+    font-weight: lighter;
+    /* min-height: 70px; */
+}
+
+.card-body{
+    text-align: start;
+}
+
+.descripcion{
+    font-size: 0.8rem;
+    min-height: 70px;
+}
+
+.fecha{
+    font-weight: normal;
+}
+
+.amazon{
+    width: 100%;
+}
+
+.button-amazon{
+    width: 100%;
+    padding: 6px 0px;
+    background: rgb(217,188,36);
+    background: linear-gradient(0deg, rgba(255,230,33,1) 0%, rgb(179, 150, 9) 100%);
+    border: 1px solid #999999;
+    cursor: pointer;
+}
+
+.mostrar{
+    cursor: default;
+}
